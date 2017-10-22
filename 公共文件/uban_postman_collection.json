@@ -1,0 +1,1646 @@
+{
+	"id": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+	"name": "uban",
+	"description": "",
+	"order": [
+		"c6066837-59e5-4fc9-3d9f-ece6e163bbd2",
+		"7f930d7b-1b9f-b224-1863-9b3f3ed6b1d4",
+		"bc58505f-fe45-8348-0b3d-da59f4604797",
+		"580e4014-40dc-22eb-3bf7-8b30c5850c41",
+		"a9088253-dcd4-b69a-3b78-7eb84437cbaa",
+		"c72f9b32-8813-b435-5dc5-15988a0759a0",
+		"8a08db7c-b1c4-15ac-365e-110d43e765af",
+		"e9e41c80-5633-d8b5-e6a4-adf6d769464b",
+		"0f9fcbc1-2880-f1ff-6740-9f230e2e9e52",
+		"66373899-ea46-c3c3-53f6-8cb1a6f2f6ce",
+		"5bfef6de-f51f-38ff-c282-e38ef00f6eb1",
+		"451e9554-a43f-2f1c-693f-29c5dcbfaf81",
+		"616f195f-bd67-2ce7-180f-2fcc696f9935",
+		"fd8a262a-2db2-691c-b5e0-53529666ebac",
+		"449b9739-275a-8072-d4cf-81a9d2413ecc",
+		"8067178b-3efe-1d3e-7e01-dc8ed4b77c17",
+		"dd57e69b-b31f-14f7-5b98-4aa1f745be9d",
+		"6119e4f7-4528-1450-49c4-944cdedb0156",
+		"f2d2e832-4207-e8ef-3450-016b536a9104",
+		"98803a5e-4536-f26e-d6f1-bdd756a7ab60",
+		"8ed233f9-205b-222e-a4cb-9ac5134eb37b",
+		"a22f7bf4-05ec-954b-72a3-fced545e2f1e",
+		"2ad6f494-bc16-df0c-0826-869c1da6e293",
+		"51a2083a-7519-0e65-8919-bc5263c42186",
+		"51c7e45a-5f72-4443-ea10-e9497784a7f3",
+		"f85fd55b-7c5a-0582-8dea-08511b1ecc79",
+		"db37fad1-563d-9c19-03b7-a1785cb1b2b2",
+		"46bce9e1-8ae4-5e22-6141-dcd5b7cd1a92",
+		"17f2985b-5748-a8e3-9498-51b096d37cfa",
+		"d875c455-6166-8bb4-5b6e-7dd048ed4d58",
+		"0c37fee5-1c53-6288-3237-7543f10f8660",
+		"9f960b2f-5ee5-90cb-aabc-09f57fbc0f69",
+		"67b89ef8-0d9f-2e0f-5c14-0dc4bfc70509",
+		"e5cf47b6-7a0d-4f74-d151-38e2f76c4891",
+		"c62fcb43-db99-2d1b-b338-7584b02811e7",
+		"af2e693c-4cb7-dff1-8f34-85345af444f9",
+		"02bd0a05-6b75-9095-1ad1-9e232a830644",
+		"b90d7aee-acde-8bd1-4105-3b682c643f9d",
+		"babdd4f3-b535-185a-a9a6-4ce7430cde0b",
+		"47750c82-d67a-f3fb-cf2c-5c46daf5d759",
+		"9113909f-ecc0-b619-ed09-c134ed82700a",
+		"c701eafe-57cd-75d2-2f9c-5065f6dc57a5",
+		"a724875b-5d4e-cbc7-67f6-fed643396202"
+	],
+	"folders": [],
+	"timestamp": 1478673045358,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "02bd0a05-6b75-9095-1ad1-9e232a830644",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/class_course/rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class_id",
+					"value": "74",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "班级管理 - 课程列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486732364571,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "0c37fee5-1c53-6288-3237-7543f10f8660",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/classes/row",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "74",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486726424353,
+			"name": "班级管理 - 班级内容",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "0f9fcbc1-2880-f1ff-6740-9f230e2e9e52",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/report/interact_answers_times",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "interact",
+					"value": "1346",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "报表_互动回答时间",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675722130,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "17f2985b-5748-a8e3-9498-51b096d37cfa",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/course/rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "学校课程-列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486722119809,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2ad6f494-bc16-df0c-0826-869c1da6e293",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/staff/row",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "115",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "员工-内容",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486719392770,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "449b9739-275a-8072-d4cf-81a9d2413ecc",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/role/create",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "员工1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "员工1!!",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sort",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "角色-新建",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486712221889,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "451e9554-a43f-2f1c-693f-29c5dcbfaf81",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/get_status",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "6e18f512d1eaccd4387a69520ccde3f2",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "testing",
+					"value": "314",
+					"type": "text",
+					"enabled": false,
+					"warning": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1481185549708,
+			"name": "获取课堂状态",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "46bce9e1-8ae4-5e22-6141-dcd5b7cd1a92",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/course/row",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "学校课程-内容",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486722093233,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "47750c82-d67a-f3fb-cf2c-5c46daf5d759",
+			"headers": "",
+			"url": "d17.uu.com/api/v1b8/student/row",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "fc955139ce6ed4fea9a55958a5cd21b4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "1353",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "学生资料",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1487060097589,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "51a2083a-7519-0e65-8919-bc5263c42186",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/staff/rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "员工-列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486719409600,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "51c7e45a-5f72-4443-ea10-e9497784a7f3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/course/create",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "0000",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486721884810,
+			"name": "学校课程-添加",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "580e4014-40dc-22eb-3bf7-8b30c5850c41",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/interact_start",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "exe_type_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "exe_id",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ture_love",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478675271302,
+			"name": "开始互动",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "5bfef6de-f51f-38ff-c282-e38ef00f6eb1",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/finish",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "我只是个标题",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "结束课堂",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675970188,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6119e4f7-4528-1450-49c4-944cdedb0156",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/role/rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "角色-列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486712520418,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "616f195f-bd67-2ce7-180f-2fcc696f9935",
+			"headers": "",
+			"url": "test.ubanjiaoyu.com/api/v1b8/classes/rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "7292a9f44d9085c27e5291ae5712eb7b",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "班级列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1481007678419,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "66373899-ea46-c3c3-53f6-8cb1a6f2f6ce",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/report/interact_answers_ranking",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "interact",
+					"value": "1346",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "报表_互动回答排行榜",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675805830,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "67b89ef8-0d9f-2e0f-5c14-0dc4bfc70509",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/classes/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "000012",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "year",
+					"value": "2015",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "13800138000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "113",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486727068532,
+			"name": "班级管理-班级修改",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "7f930d7b-1b9f-b224-1863-9b3f3ed6b1d4",
+			"headers": "",
+			"url": "test17.ubanjiaoyu.com/api/v1b8/sign/token_check",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "fda6263949491f40ecd67a35fcd74e22",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487304223890,
+			"name": "检查Token",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "8067178b-3efe-1d3e-7e01-dc8ed4b77c17",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/role/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "员工2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "员工3!!",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sort",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486712331947,
+			"name": "角色-修改",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "8a08db7c-b1c4-15ac-365e-110d43e765af",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/interact_statistics_completed",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "标记互动已统计",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675474440,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8ed233f9-205b-222e-a4cb-9ac5134eb37b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/staff/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "account",
+					"value": "00002",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwd",
+					"value": "00002",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "13800138000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "李!0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firstname",
+					"value": "量超!07",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "高级讲师!0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "uban_li@ubanjiaoyu.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "116",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486732735157,
+			"name": "员工-修改",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "9113909f-ecc0-b619-ed09-c134ed82700a",
+			"headers": "",
+			"url": "d17.uu.com/api/v1b8/student/create",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "fc955139ce6ed4fea9a55958a5cd21b4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class_id",
+					"value": "114",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "xxx",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "student_id",
+					"value": "01140001",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "学生新建",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1487062101999,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "98803a5e-4536-f26e-d6f1-bdd756a7ab60",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/staff/create",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "account",
+					"value": "00001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwd",
+					"value": "00001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "13800138000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "李",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firstname",
+					"value": "量超",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "高级讲师",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "uban_li@ubanjiaoyu.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486715128554,
+			"name": "员工-新建",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "9f960b2f-5ee5-90cb-aabc-09f57fbc0f69",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/classes/create",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "00001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "year",
+					"value": "00001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "descript",
+					"value": "13800138000",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "班级管理-班级新建",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486726961275,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a22f7bf4-05ec-954b-72a3-fced545e2f1e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/staff/del",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "116",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486719582137,
+			"name": "员工-删除",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "a724875b-5d4e-cbc7-67f6-fed643396202",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test17.ubanjiaoyu.com/api/v1b8/classes/staff_rows",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "0beed4999a45021dd3cec3864ff7101c",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "老师的任课列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1487306458090,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a9088253-dcd4-b69a-3b78-7eb84437cbaa",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/interact_set",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "true_love",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "设置互动",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675325800,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "af2e693c-4cb7-dff1-8f34-85345af444f9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/class_course/create",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class_id",
+					"value": "74",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "course_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486732335940,
+			"name": "班级管理 - 添加课程",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "b90d7aee-acde-8bd1-4105-3b682c643f9d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/class_course/staff",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "staff_id",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "班级管理 - 课程老师",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486732843492,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "babdd4f3-b535-185a-a9a6-4ce7430cde0b",
+			"headers": "",
+			"url": "d17.uu.com/api/v1b8/student/rows",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "fc955139ce6ed4fea9a55958a5cd21b4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class_id",
+					"value": "114",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487059696678,
+			"name": "学生列表",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "bc58505f-fe45-8348-0b3d-da59f4604797",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/start",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "fda96a1ed2fd41337ea9333135df0846",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacher_id",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1480385109460,
+			"name": "开始课堂",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "c6066837-59e5-4fc9-3d9f-ece6e163bbd2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/sign/in",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "account",
+					"value": "chao",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "passwd",
+					"value": "chao",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": false,
+					"warning": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486719594511,
+			"name": "登录",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "c62fcb43-db99-2d1b-b338-7584b02811e7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/class_course/del",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "113",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486730918626,
+			"name": "班级管理 - 删除课程",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "c701eafe-57cd-75d2-2f9c-5065f6dc57a5",
+			"headers": "",
+			"url": "d17.uu.com/api/v1b8/student/del",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "fc955139ce6ed4fea9a55958a5cd21b4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "2371",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "学生删除",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1487062396653,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c72f9b32-8813-b435-5dc5-15988a0759a0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/testing/interact_finish",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478675844978,
+			"name": "完成互动",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "d875c455-6166-8bb4-5b6e-7dd048ed4d58",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/classes/rows",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486726323012,
+			"name": "班级管理 - 班级列表",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "db37fad1-563d-9c19-03b7-a1785cb1b2b2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/course/del",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486722023192,
+			"name": "学校课程-删除",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "dd57e69b-b31f-14f7-5b98-4aa1f745be9d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/role/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "员工2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "员工3!!",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sort",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486712331947,
+			"name": "角色-删除",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "e5cf47b6-7a0d-4f74-d151-38e2f76c4891",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/classes/del",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "113",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486727303401,
+			"name": "班级管理 - 班级删除",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "e9e41c80-5633-d8b5-e6a4-adf6d769464b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "test.ubanjiaoyu.com/api/v1b8/report/interact_answers",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "6beb3e12879e8bf601907739892c987a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "interact",
+					"value": "1346",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "报表_互动回答正确率",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478675602067,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f2d2e832-4207-e8ef-3450-016b536a9104",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/role/row",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "6",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "角色-内容",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1486712566320,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f85fd55b-7c5a-0582-8dea-08511b1ecc79",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "d17.uu.com/api/v1b8/course/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "89860acee796c73f24bcc351634b0141",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "00006",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1486722000681,
+			"name": "学校课程-修改",
+			"description": "",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"responses": []
+		},
+		{
+			"id": "fd8a262a-2db2-691c-b5e0-53529666ebac",
+			"headers": "",
+			"url": "test.uu.com/api/v1b8/testing/set_fullscreen",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f32caea-a102-50b0-c265-d3c63c6bf2e5",
+			"data": [
+				{
+					"key": "token",
+					"value": "c3ecbb6f1824a07c09045505bcaee28a",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "yes",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "投屏_全屏",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1484202053776,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
